@@ -1,0 +1,27 @@
+
+<!--code by Oliver Kovacs-->
+<!--part of ashCoin.html-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ashCoin[
+<!ELEMENT ashCoin (blockChain, addressList)>
+<!ELEMENT blockChain (#PCDATA)>
+<!ELEMENT pendingTransactions (#PCDATA)>
+<!ELEMENT addressList (#PCDATA)>
+]>
+
+<ashCoin>
+    <blockChain>
+
+    </blockChain>
+    
+    <pendingTransactions>
+    
+    </pendingTransactions>
+    
+    <addressList>
+
+    </addressList>
+</ashCoin>
